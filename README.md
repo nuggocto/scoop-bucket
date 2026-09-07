@@ -21,6 +21,12 @@ Installs both `kickoutchi.exe` and `kick.exe` from the release's
 | Manifest | Project |
 | --- | --- |
 | `kickoutchi` | https://github.com/nuggocto/kickoutchi |
+| `orifude` | https://github.com/nuggocto/orifude |
+
+After adding the bucket, install Orifude with `scoop install nuggocto/orifude`.
+Its [website](https://orifude.com) has release notes and the other installation
+methods. Orifude's manifest is maintained through verified release updates and
+does not use Excavator's automatic version rules.
 
 More manifests can be added under `bucket/*.json` as other projects publish
 Scoop releases.
